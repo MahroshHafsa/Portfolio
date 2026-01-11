@@ -5,10 +5,20 @@
 .purple{
     color: #5E3BEE !important;
 }
-.herobtn{
-    background-color: #5E3BEE !important;
-    color:white !important;
-}
 .para{
     color: #5E3BEE !important;
+}
+.herobtn{
+    color:azure;
+    background-color: #5E3BEE !important;
+}
+.hero{
+    background-color: #F5FCFF;
+}
+.gallery{
+    background-color: #F5FCFF ;
+    outline: 20px solid white;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px;
 }
