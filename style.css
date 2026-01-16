@@ -22,3 +22,39 @@
     flex-direction: column !important;
     gap: 20px;
 }
+.figma-card {
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  padding: 24px;
+  background: #fff;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.figma-card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.figma-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.figma-card p {
+  font-size: 15px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.dribbble-link {
+  font-weight: 500;
+  color: #0d6efd;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dribbble-link:hover {
+  text-decoration: underline;
+}
